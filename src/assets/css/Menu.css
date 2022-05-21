@@ -1,0 +1,28 @@
+.menupage{
+    padding-top:10rem;
+}
+.btn-animation:hover{
+    background-color:#F78154 !important;
+    z-index:1;
+}
+.border-orange{
+    border: 0.1rem solid !important;
+    border-color: #F78154 !important;
+}
+.btn-bg{
+    background-color: #f7825430;
+}
+ a.current{
+    background-color:#F78154 !important;
+}
+.food_cards{
+    margin:auto;
+}
+.food-img{
+    object-fit: cover !important;
+}
+.menu_writing{
+    color: black !important;
+    font-size: 0.945rem !important;
+}
+
