@@ -12,7 +12,7 @@ function SilogMeals() {
         Axios.get("https://kusinanichichi.herokuapp.com/silogmenu").then((response) => {
             setFoodMenu(response.data);
         });
-    });
+    }, []);
 
 
     return (
