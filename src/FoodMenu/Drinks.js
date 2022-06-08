@@ -1,23 +1,19 @@
 import { useEffect, useState } from "react";
 import Axios from 'axios';
-import '../assets/css/Menu.css';
-import '../assets/css/bootstrap.min.css';
-import GridLoader from "react-spinners/GridLoader";
-
+import '../assets/css/Menu.css'
+import '../assets/css/bootstrap.min.css'
+import Sweets from '../assets/img/mango_overload.jpeg'
 
 
 
 function Drinks() {
 
     const [drinkMenu, setDrinkMenu] = useState([]);
-    const [loaded, setLoaded] = useState(false);
-
 
     useEffect(() => {
         Axios.get("https://kusinanichichi.herokuapp.com/drinkmenu").then((response) => {
             setDrinkMenu(response.data);
         });
-        setLoaded(true);
     }, []);
 
     return (
@@ -30,8 +26,7 @@ function Drinks() {
                     <a className="btn btn-animation btn-bg border-orange mt-3 menu_writing current" href="/drinks" role="button">Drinks</a>
                     <a className="btn btn-animation btn-bg border-orange mt-3 menu_writing" href="/wings" role="button">Wings</a>
                 </div>
-
-                {loaded ? <div className="mx-auto col mt-2 mr-4">
+                <div className="mx-auto col mt-2 mr-4">
                     <div className="d-flex row flex-wrap justify-content-around text-center">
                         {drinkMenu.map((item, i) => {
                             var drinkPriceInDecimalsSm = parseFloat(item.drinkPriceSm).toFixed(2);
@@ -51,15 +46,7 @@ function Drinks() {
                             );
                         })}
                     </div>
-                </div> :
-                    <div className="loader">
-                        <GridLoader margin="1px" color={'#F78154'} loading={loaded} size={30}>
-                        </GridLoader>
-                        <div className="mt-4"></div>
-                        <GridLoader margin="1px" color={'#F78154'} loading={loaded} size={30}>
-                        </GridLoader>
-                    </div>}
-
+                </div>
             </div>
         </div>
     );
