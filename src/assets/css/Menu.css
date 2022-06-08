@@ -7,7 +7,7 @@
 }
 .border-orange{
     border: 0.1rem solid !important;
-    border-color: #F78154 !important;
+    border: solid 1px #F78154 !important;
 }
 .btn-bg{
     background-color: #f7825430;
@@ -25,4 +25,8 @@
     color: black !important;
     font-size: 0.945rem !important;
 }
-
+.loader{
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}

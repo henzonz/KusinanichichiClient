@@ -2,7 +2,6 @@ import './assets/css/Home.css'
 import './assets/css/bootstrap.min.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -38,7 +37,9 @@ function Home() {
     <div className="homepage">
       <div className="text-center text-muted mb-5">** <u>Please order through our <a className="text-decoration-none" href="https://www.facebook.com/kusinanichichipromisesalasa" target="_blank">Facebook</a> page</u> **</div>
       <div>
-        <div className="text-center h3 our-best-seller-font mb-4">Our Best Sellers
+        <div className="horizontal-divider mb-5">
+          <span className="text-center h3 our-best-seller-font mb-4">Our Best Sellers
+          </span>
         </div>
         <div className="row">
           <div className="mx-auto col">
@@ -58,8 +59,12 @@ function Home() {
 
         </div>
       </div>
-     
-      <div className="h3 text-center mt-5 mb-4 reviews-margin__top our-best-seller-font">Reviews</div>
+      <div className="horizontal-divider mb-5 reviews-margin__top">
+        <span className="h3 text-center mb-4 our-best-seller-font">
+          Reviews
+        </span>
+      </div>
+
       <div className="row">
         <div className="mx-auto col">
           <div className="d-flex flex-row flex-wrap justify-content-around">
