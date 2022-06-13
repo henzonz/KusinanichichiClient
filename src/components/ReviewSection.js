@@ -16,7 +16,7 @@ const ReviewSection = () => {
     }
 
     return (
-        <div className="review-sction__top-margin">
+        <div className="review-section__top-margin">
             <div className="horizontal-line mb-5"><span className="h3 text-center mt-5 mb-4 reviews-margin__top our-best-seller-font">
                 Reviews
             </span></div>
