@@ -42,13 +42,13 @@ function Navbar() {
                     <a className="navbar-brand ml-5" href="/"><img className="border-orange rounded-circle" src={Logo} style={{ height: '85px', width: '85px' }} alt="" /></a>
                     <ul id="menuLinks" className="navbar-nav d-flex flex-row">
                         <li className="nav-item">
-                            <Link to="/"><img src={Home} style={{ height: '32px', width: '32px' }} /></Link>
+                            <Link to="/"><img className="nav-logo" src={Home} style={{ height: '32px', width: '32px' }} /></Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/silogmeals"><img src={Menu} style={{ height: '32px', width: '32px' }} /></Link>
+                            <Link to="/silogmeals"><img className="nav-logo" src={Menu} style={{ height: '32px', width: '32px' }} /></Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/contact"><img src={Contacts} style={{ height: '32px', width: '32px' }} /></Link>
+                            <Link to="/contact"><img className="nav-logo" src={Contacts} style={{ height: '32px', width: '32px' }} /></Link>
                         </li>
                     </ul>
                 </nav>

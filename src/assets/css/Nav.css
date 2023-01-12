@@ -20,10 +20,10 @@
     color: black !important;
 }
 .navbar-brand{
-    transition: 1s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 .navbar-brand:hover{
-    opacity: 50%;
+    transform:scale(1.10);
 }
 .nav-menu-btn{
     z-index: 2 !important;
@@ -101,7 +101,10 @@
     border-color: #F78154 !important;
 }
 .nav-item.highlight:hover{
-    border-bottom: solid 0.5px #F78154 !important;
+    transform:scale(1.15);
+}
+.nav-logo:hover{
+    transform:scale(1.2);
 }
 
 .mobile-nav-link__texts{
@@ -125,6 +128,9 @@
 @media only screen and (max-width: 806px){
     .nav-lgscreen{
         display:none;
+    }
+    .nav-item.highlight:hover{
+        border-bottom: solid 0.5px #F78154 !important;
     }
 }
 /* 
