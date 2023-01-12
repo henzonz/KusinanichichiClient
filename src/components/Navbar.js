@@ -34,7 +34,7 @@ function Navbar() {
             <div className="nav-lgscreen">
                 <nav id="navigation" className="navbar bg-light nav_border fixed-top border-bottom">
                     <div className="row">
-                        <div className="col address-writing"><a href="https://www.google.com/maps/dir/?api=1&destination=14.2787659%2C121.0552253&fbclid=IwAR3Ko4NduyJwbUQjLyi_gSo1-on9m74v1yjpEBHWGDB5IkbN_4CjtKL9bZE" target="_blank">
+                        <div className="col address-writing"><a href="https://www.google.com/maps/dir/37.7759447,-122.4130067/14.3433398,121.059906/@1.6165799,92.6319332,3z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0" target="_blank">
                             B12 L1 7th Street <br></br>
                             Pacita 1 Phase 1A 4023 Pacita Complex, Philippines</a>
                         </div>
