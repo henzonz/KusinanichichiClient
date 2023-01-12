@@ -16,7 +16,7 @@ const BestSellerSection = () => {
     }
 
     return (
-        <div>
+        <div className="our-best-seller-section">
             <div className="horizontal-line mb-5">
                 <span className="h3 our-best-seller-font">Our Best Sellers</span></div>
 

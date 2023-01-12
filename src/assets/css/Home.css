@@ -3,7 +3,9 @@
 .homepage {
     padding-top: 7rem;
 }
-
+.our-best-seller-font{
+    margin-top: 8rem !important;
+}
 .horizontal-line {
     border-bottom: 0.9px solid #F78154;
     height: 20px;

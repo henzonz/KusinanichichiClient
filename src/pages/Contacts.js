@@ -25,7 +25,7 @@ function Contacts() {
                             <div className="contact-subtext">Sunday: 11am — 9pm</div>
                         </div>
                         <div className="m-5"> <span className="h5">ADDRESS</span>
-                            <div className="contact-subtext">Blk 9 Lot 29 Matthew St. Juana 6 Brgy. San Francisco 4024 Biñan, Philippines</div>
+                            <div className="contact-subtext">B12 L1 7th Street Pacita 1 Phase 1A 4023 Pacita Complex, Philippines</div>
                         </div>
                     </div>
                     <div className="col order-2">
@@ -33,7 +33,7 @@ function Contacts() {
                             <div className="contact-subtext">To change or cancel orders, please call us or contact us through Facebook messenger.</div>
                         </div>
                         <div>
-                            <iframe title="kusinanichichimap" className="map-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d966.6405260578687!2d121.05463048810928!3d14.27874099937245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x683bca8788172b54!2zMTTCsDE2JzQzLjUiTiAxMjHCsDAzJzE4LjYiRQ!5e0!3m2!1sen!2sus!4v1649299982145!5m2!1sen!2sus"></iframe>
+                            <iframe width="600" height="450" className="map-responsive" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=14.343356%2C%20121.059891&key=AIzaSyCWD-c3_LrppsG5eVEv9GywbldZ1hAMnzw"></iframe>
                         </div>
                     </div>
                 </div>

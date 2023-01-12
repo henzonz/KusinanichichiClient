@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import '../assets/css/bootstrap.min.css'
 import Logo from '../assets/img/logo.jpg'
 import '../assets/css/Nav.css'
-
+import { Link } from 'react-router-dom'
+import Home from '../assets/img/home.png'
+import Menu from '../assets/img/menu.png'
+import Contacts from '../assets/img/contact-us.png'
 
 
 
@@ -21,7 +24,6 @@ function Navbar() {
                     <li className="nav-item highlight mt-5"><a href="/silogmeals" className="nav-link mobile-nav-link__texts">Menu</a></li>
                     <li className="nav-item highlight mt-5 mb-4"><a href="/contact" className="nav-link mobile-nav-link__texts">Contact</a></li>
                 </ul>
-
             </nav>
 
 
@@ -40,13 +42,13 @@ function Navbar() {
                     <a className="navbar-brand ml-5" href="/"><img className="border-orange rounded-circle" src={Logo} style={{ height: '85px', width: '85px' }} alt="" /></a>
                     <ul id="menuLinks" className="navbar-nav d-flex flex-row">
                         <li className="nav-item">
-                            <a className="nav-link px-2" href="/">Home</a>
+                            <Link to="/"><img src={Home} style={{ height: '32px', width: '32px' }} /></Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link px-2" href="/silogmeals">Menu</a>
+                            <Link to="/silogmeals"><img src={Menu} style={{ height: '32px', width: '32px' }} /></Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link px-2" href="/contact">Contact</a>
+                            <Link to="/contact"><img src={Contacts} style={{ height: '32px', width: '32px' }} /></Link>
                         </li>
                     </ul>
                 </nav>

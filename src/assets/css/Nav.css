@@ -101,7 +101,7 @@
     border-color: #F78154 !important;
 }
 .nav-item.highlight:hover{
-    border-bottom: solid 0.5px #F78154;
+    border-bottom: solid 0.5px #F78154 !important;
 }
 
 .mobile-nav-link__texts{
